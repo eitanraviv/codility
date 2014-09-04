@@ -11,16 +11,17 @@ import codility.generic.Maths;
 public class MinStepsToSingleValue
 {
 	@Test
-	public void test() {
+	public void test() 
+	{
 		assertEquals(0, new MinStepsToSingleValue().solution(new int[] {}));
-    	assertEquals(0, new MinStepsToSingleValue().solution(new int[] {1}));
-    	assertEquals(0, new MinStepsToSingleValue().solution(new int[] {1,1}));
-    	assertEquals(4, new MinStepsToSingleValue().solution(new int[] {1,5}));
-    	assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,2}));
-    	assertEquals(4, new MinStepsToSingleValue().solution(new int[] {5,1}));
+	    assertEquals(0, new MinStepsToSingleValue().solution(new int[] {1}));
+	    assertEquals(0, new MinStepsToSingleValue().solution(new int[] {1,1}));
+	    assertEquals(4, new MinStepsToSingleValue().solution(new int[] {1,5}));
+	    assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,2}));
+	    assertEquals(4, new MinStepsToSingleValue().solution(new int[] {5,1}));
+		assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,2,1}));
+		assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,2,1}));
 		assertEquals(0, new MinStepsToSingleValue().solution(new int[] {1,1,1}));
-		assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,2,1}));
-		assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,2,1}));
 		assertEquals(1, new MinStepsToSingleValue().solution(new int[] {1,1,2}));
 		assertEquals(4, new MinStepsToSingleValue().solution(new int[] {1,1,5}));
 		assertEquals(4, new MinStepsToSingleValue().solution(new int[] {5,5,1}));
@@ -29,9 +30,9 @@ public class MinStepsToSingleValue
 	}
 
 	public int solution(int[] a) 
-    {
-    	int steps = 0;
-    	
+	{
+		int steps = 0;
+	
     	if (a.length < 2) {
     		return 0;
     	}
@@ -44,5 +45,5 @@ public class MinStepsToSingleValue
     	}
     	
     	return steps;
-    }
+	}
 }
