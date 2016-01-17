@@ -1,11 +1,11 @@
-package codility.lesson1_time_complexity;
+package org.github.coding.lesson3_time_complexity;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import codility.generic.Array;
-import codility.generic.Maths;
+import org.github.coding.generic.Array;
+import org.github.coding.generic.Maths;
 
 
 public class MissingElement

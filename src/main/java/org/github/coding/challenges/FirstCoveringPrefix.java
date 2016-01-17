@@ -1,10 +1,10 @@
-package codility.challenges;
+package org.github.coding.challenges;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import codility.generic.BucketOfDistinctArrayValues;
+import org.github.coding.generic.BucketOfDistinctArrayValues;
 
 /**
  	Alpha2010

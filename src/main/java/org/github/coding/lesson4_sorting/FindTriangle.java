@@ -1,4 +1,4 @@
-package codility.lesson4_sorting;
+package org.github.coding.lesson4_sorting;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import codility.generic.Guards;
+import org.github.coding.generic.Guards;
 
 public class FindTriangle
 {

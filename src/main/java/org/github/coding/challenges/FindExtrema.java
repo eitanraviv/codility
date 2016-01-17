@@ -1,8 +1,8 @@
-package codility.challenges;
-
-import static org.junit.Assert.*;
+package org.github.coding.challenges;
 
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 
 public class FindExtrema

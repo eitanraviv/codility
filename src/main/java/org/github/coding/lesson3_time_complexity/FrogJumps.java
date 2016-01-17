@@ -1,10 +1,10 @@
-package codility.lesson1_time_complexity;
+package org.github.coding.lesson3_time_complexity;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import codility.generic.Guards;
+import org.github.coding.generic.Guards;
 
 public class FrogJumps
 {

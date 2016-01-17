@@ -1,4 +1,4 @@
-package codility.lesson8_primes_composites;
+package org.github.coding.lesson8_primes_composites;
 
 /**
 	A non-empty zero-indexed array A consisting of N integers is given. 

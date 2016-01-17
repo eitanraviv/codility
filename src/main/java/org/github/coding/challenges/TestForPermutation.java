@@ -1,11 +1,11 @@
-package codility.challenges;
+package org.github.coding.challenges;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import codility.generic.Array;
-import codility.generic.Guards;
+import org.github.coding.generic.Array;
+import org.github.coding.generic.Guards;
 
 public class TestForPermutation
 {

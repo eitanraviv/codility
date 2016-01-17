@@ -1,4 +1,4 @@
-package codility.lesson8_primes_composites;
+package org.github.coding.lesson8_primes_composites;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import codility.generic.GetFactorsAscending;
+import org.github.coding.generic.GetFactorsAscending;
 
 /**
 	A non-empty zero-indexed array A consisting of N integers is given.

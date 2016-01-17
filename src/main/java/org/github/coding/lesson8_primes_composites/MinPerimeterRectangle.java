@@ -1,4 +1,4 @@
-package codility.lesson8_primes_composites;
+package org.github.coding.lesson8_primes_composites;
 
 import static org.junit.Assert.*;
 

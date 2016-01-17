@@ -1,4 +1,4 @@
-package codility.generic;
+package org.github.coding.generic;
 
 import java.util.Arrays;
 

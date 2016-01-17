@@ -1,4 +1,4 @@
-package codility.generic;
+package org.github.coding.generic;
 
 public class Guards
 {
